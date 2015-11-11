@@ -91,7 +91,6 @@ aside {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #c5774f;
@@ -239,7 +238,7 @@ header .header-content .header-content-inner p {
     header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
-        max-width: 80%;
+        max-width: 95%;
         font-size: 18px;
     }
 }
@@ -392,7 +391,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     border-color: #c5774f;
     color: #fff;
-    background-color: #c5774f;
+    background-color: #EE4B28;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
