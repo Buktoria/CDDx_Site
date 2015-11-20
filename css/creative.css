@@ -276,7 +276,12 @@ header .header-content .header-content-inner p {
     width: 100%;
     height: 100%;
     text-align: center;
+    color: #fff;
+    opacity: 0;
     background: rgba(240,95,64,.9);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -304,7 +309,7 @@ header .header-content .header-content-inner p {
 }
 
 .portfolio-box:hover .portfolio-box-caption {
-    opacity: 2;
+    opacity: 1;
 }
 
 @media(min-width:768px) {
@@ -322,7 +327,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #ffffff;
+    color: #c5774f;
 }
 
 .no-gutter > [class*=col-] {
